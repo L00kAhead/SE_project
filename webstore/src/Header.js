@@ -1,13 +1,16 @@
-import React from 'react';
-import './Header.css';
-import SearchIcon from '@material-ui/icons/Search';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import React from 'react'
+import './Header.css'
+import SearchIcon from '@material-ui/icons/Search'
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 
 function Header() {
 	return (
 		<div className="header">
-			<img className="header__logo" src="https://www.nicepng.com/png/full/16-167642_amazon-logo-amazon-logo-white-text.png" alt="logo" />
-
+			<img
+				className="header__logo"
+				src="https://www.nicepng.com/png/full/16-167642_amazon-logo-amazon-logo-white-text.png"
+				alt="logo"
+			/>
 			<div className="header__search">
 				<input className="header__searchInput" type="text" />
 				<SearchIcon className="header__searchIcon" />
@@ -38,4 +41,4 @@ function Header() {
 	);
 }
 
-export default Header;
+export default Header
